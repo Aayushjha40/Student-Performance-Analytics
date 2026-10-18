@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+*.log
+.DS_Store
+
+# Spark-generated files
+*.crc
+_SUCCESS
+.part-*
+
+# Local environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Spark output metadata
+*.crc
+_SUCCESS
+
+# Local backup scripts
+dashboard/app*.save
+dashboard/app_backup.py
+dashboard/app_before_*.py
+dashboard/app_pre_validation_*.py
+dashboard/app_department_working.py
+
+# Local environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated analytics output
+data/processed/
+
+# Local scripts and generated files
+scripts/
